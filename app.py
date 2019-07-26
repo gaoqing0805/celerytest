@@ -10,7 +10,7 @@ import time
 from tasks import add
 
 if __name__ == '__main__':
-    print 'start task...'
+    print('start task...')
     result = add.delay(3, 5)
-    print 'end task...'
-    print result
+    print('end task...')
+    print(result)
